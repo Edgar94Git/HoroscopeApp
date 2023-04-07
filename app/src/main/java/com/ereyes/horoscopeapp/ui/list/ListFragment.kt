@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.ereyes.horoscopeapp.R
 import com.ereyes.horoscopeapp.databinding.FragmentListBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ListFragment : Fragment() {
 
     private lateinit var binding: FragmentListBinding

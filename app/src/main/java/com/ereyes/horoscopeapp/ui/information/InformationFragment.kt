@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.ereyes.horoscopeapp.R
 import com.ereyes.horoscopeapp.databinding.FragmentInformationBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class InformationFragment : Fragment() {
 
     private lateinit var binding: FragmentInformationBinding
